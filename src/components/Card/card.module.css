@@ -1,0 +1,36 @@
+.card {
+  width: 435px;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.header {
+  padding: 8px 16px;
+  background-color: var(--neutral-header);
+  border-radius: 24px 24px 0 0;
+  gap: 8px;
+
+  justify-content: center;
+  text-align: center;
+
+  color: var(--neutral-text);
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 700;
+}
+.body {
+  border-radius: 0px 0px 24px 24px;
+  background-color: var(--neutral-surface);
+  width: 435px;
+  padding: 8px 16px;
+  gap: 16px;
+  height: 171px;
+  justify-content: center;
+  /* Não tenho certeza sobre o align content. Acho que é uma solução, mas não sei se é a melhor solução. */
+  align-content: center;
+  text-align: center;
+  color: var(--primary-highlight);
+  font-size: 39px;
+  line-height: 120%;
+  font-weight: 700;
+}
