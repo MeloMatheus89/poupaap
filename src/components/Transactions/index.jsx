@@ -37,11 +37,13 @@ export const Transaction = () => {
             </li>
           );
         })}
+      </ul>
+      <div className={styles.action}>
         <Button>
           <IconCurrency />
           Adicionar transação
         </Button>
-      </ul>
+      </div>
     </>
   );
 };
