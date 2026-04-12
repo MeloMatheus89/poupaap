@@ -9,8 +9,7 @@
   color: var(--neutral-text);
   margin: 0;
 }
-.body,
-p {
+.body {
   color: var(--neutral-text);
   margin: 0;
   font-size: 16px;
